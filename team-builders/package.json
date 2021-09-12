@@ -1,0 +1,17 @@
+{
+  "name": "team-builders",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "builders": "builders.json",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@angular-devkit/core": "^12.2.5",
+    "typescript": "^4.4.3"
+  }
+}

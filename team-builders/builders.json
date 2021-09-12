@@ -1,0 +1,9 @@
+{
+  "builders": {
+    "check-ng-config": {
+      "implementation": "./dist/index.js",
+      "schema": "./check-ng-config/schema.json",
+      "description": "Checks for some stuff in angular.json"
+    }
+  }
+}
