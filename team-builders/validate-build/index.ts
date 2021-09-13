@@ -35,7 +35,6 @@ async function createCheckerBuilder(
     const jsonData = JSON.parse(data);
     const buildIsOk = jsonData.scripts?.build == 'ng build';
     if (!buildIsOk) {
-      context.reportProgress(10, 100, 'Not good');
       const shouldUpdateContent = await question("Would you like to set corporate content (y/n)? ");
       if (shouldUpdateContent) {
         context.logger.info('test');
