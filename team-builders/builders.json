@@ -1,9 +1,9 @@
 {
   "builders": {
-    "check-ng-config": {
+    "validate-build": {
       "implementation": "./dist/index.js",
-      "schema": "./check-ng-config/schema.json",
-      "description": "Checks for some stuff in angular.json"
+      "schema": "./validate-build/schema.json",
+      "description": "Checks for build command in package.json"
     }
   }
 }

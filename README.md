@@ -12,5 +12,5 @@ Some more details can be found in story on medium.
 3. Run `npm run build`
 4. Get back to root
 5. Run `npm ci`
-6. Run `ng run custom-cli-builder:check-ng-config` 
+6. Run `npm run validate-build` 
 

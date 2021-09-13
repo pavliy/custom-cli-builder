@@ -20,8 +20,8 @@
       "sourceRoot": "src",
       "prefix": "app",
       "architect": {
-        "check-ng-config": {
-          "builder": "./team-builders:check-ng-config"
+        "validate-build": {
+          "builder": "./team-builders:validate-build"
         },
         "build": {
           "builder": "@angular-devkit/build-angular:browser",

@@ -37,7 +37,14 @@ async function createCheckerBuilder(
     if (!buildIsOk) {
       context.reportProgress(10, 100, 'Not good');
       const shouldUpdateContent = await question("Would you like to set corporate content (y/n)? ");
-      // NEXT CODE TO UPDATE package.json
+      if (shouldUpdateContent) {
+        context.logger.info('test');
+        console.log('Content updated');
+        // NEXT CODE TO UPDATE package.json
+      }
+      else {
+        console.log('OK. We will not touch content');
+      }
     }
     return { success: true };
 }
